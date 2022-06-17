@@ -234,11 +234,11 @@ keys = [
             lazy.run_extension(extension.DmenuRun(
         dmenu_prompt = ">",
         demnu_font = "sans",
-        fontsize = 12 ,
-        background = "#15181a",
-        foreground = "#ffffff",
-        selected_background= '2c0a28',
-        selected_foreground= "#fff",
+        fontsize = 10 ,
+        background = "#1e1e2e",
+        foreground = "#cdd6fa",
+        selected_background= "#89b4fa",
+        selected_foreground= "#1e1e2e",
         ))),
 ]
 
