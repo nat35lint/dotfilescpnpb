@@ -244,6 +244,12 @@ keys = [
 
 # groups = [Group(i) for i in "123456789"]
 
+
+color = [
+        ["#11111b", "#11111b"],
+        ["#89b4fa", "#89b4fa"],
+        ]
+
 groups = []
 
 group_names = [
@@ -307,8 +313,8 @@ for i in groups:
 
 layouts = [
     layout.Columns(
-        border_focus = '#27205c',
-        border_normal = '#000000',
+        border_focus = color[1],
+        border_normal = color[0],
         border_width =4,
         margin =8
         ),
@@ -320,8 +326,8 @@ layouts = [
     # layout.Matrix(),
     
     layout.MonadTall(
-        border_focus = '#91600a',
-        border_normal = '#000000',
+        border_focus = color[1],
+        border_normal = color[0],
         border_width =4,
         margin =8
         ),
@@ -333,8 +339,8 @@ layouts = [
     # layout.VerticalTile(),
     # layout.Zoomy(),
     layout.Floating(
-        border_focus = '#b07819',
-        border_normal = '#000000',
+        border_focus = color[1],
+        border_normal = color[0],
         border_width =2 
         ),
 ]
