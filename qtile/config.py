@@ -217,8 +217,8 @@ keys = [
              ),
 	# i3 lockscreen
 	
-	Key([mod], "c",
-		lazy.spawn("i3lock -i /usr/share/backgrounds/archlinux/split.png")
+	Key([mod], "x",
+		lazy.spawn("i3lock -c 000000")
 		),
 
     # screenshot
